@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CalculatorApp</title>
+    <meta name="description" content="CalculatorApp for UT learner" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="calculator-display" readonly placeholder="0" />
+      <div class="calculator-keys">
+        <button
+          class="calculator-key calculator-key--operator"
+          data-action="del">
+          del
+        </button>
+        <button
+          class="calculator-key calculator-key--operator"
+          data-action="clear">
+          C
+        </button>
+        <button class="calculator-key calculator-key--operator" data-value="/">
+          /
+        </button>
+        <button class="calculator-key calculator-key--operator" data-value="*">
+          x
+        </button>
+        <!-- Row 1 -->
+        <button class="calculator-key" data-value="7">7</button>
+        <button class="calculator-key" data-value="8">8</button>
+        <button class="calculator-key" data-value="9">9</button>
+        <button class="calculator-key calculator-key--operator" data-value="-">
+          -
+        </button>
+
+        <!-- Row 2 -->
+        <button class="calculator-key" data-value="4">4</button>
+        <button class="calculator-key" data-value="5">5</button>
+        <button class="calculator-key" data-value="6">6</button>
+        <button class="calculator-key calculator-key--operator" data-value="+">
+          +
+        </button>
+
+        <!-- Row 3 -->
+        <button class="calculator-key" data-value="1">1</button>
+        <button class="calculator-key" data-value="2">2</button>
+        <button class="calculator-key" data-value="3">3</button>
+
+        <button class="calculator-key calculator-key--operator" data-value=".">
+          .
+        </button>
+        <button class="calculator-key calculator-key--zero" data-value="0">
+          0
+        </button>
+        <button
+          class="calculator-key calculator-key--operator"
+          data-action="calculate">
+          =
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js" async defer></script>
+  </body>
+</html>
