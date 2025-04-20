@@ -1,10 +1,31 @@
+html,
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background-color: aliceblue;
   font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: rgb(242, 191, 97);
+  transition: color 0.2s ease;
+}
+
+.title:hover {
+  color: rgb(252, 207, 148);
 }
 
 .calculator {

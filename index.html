@@ -9,57 +9,70 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="calculator">
-      <input type="text" id="calculator-display" readonly placeholder="0" />
-      <div class="calculator-keys">
-        <button
-          class="calculator-key calculator-key--operator"
-          data-action="del">
-          del
-        </button>
-        <button
-          class="calculator-key calculator-key--operator"
-          data-action="clear">
-          C
-        </button>
-        <button class="calculator-key calculator-key--operator" data-value="/">
-          /
-        </button>
-        <button class="calculator-key calculator-key--operator" data-value="*">
-          x
-        </button>
-        <!-- Row 1 -->
-        <button class="calculator-key" data-value="7">7</button>
-        <button class="calculator-key" data-value="8">8</button>
-        <button class="calculator-key" data-value="9">9</button>
-        <button class="calculator-key calculator-key--operator" data-value="-">
-          -
-        </button>
+    <div class="container">
+      <h1 class="title">UT Programming Apps</h1>
+      <div class="calculator">
+        <input type="text" id="calculator-display" readonly value="0" />
+        <div class="calculator-keys">
+          <button
+            class="calculator-key calculator-key--operator"
+            data-action="del">
+            del
+          </button>
+          <button
+            class="calculator-key calculator-key--operator"
+            data-action="clear">
+            C
+          </button>
+          <button
+            class="calculator-key calculator-key--operator"
+            data-value="/">
+            /
+          </button>
+          <button
+            class="calculator-key calculator-key--operator"
+            data-value="*">
+            x
+          </button>
+          <!-- Row 1 -->
+          <button class="calculator-key" data-value="7">7</button>
+          <button class="calculator-key" data-value="8">8</button>
+          <button class="calculator-key" data-value="9">9</button>
+          <button
+            class="calculator-key calculator-key--operator"
+            data-value="-">
+            -
+          </button>
 
-        <!-- Row 2 -->
-        <button class="calculator-key" data-value="4">4</button>
-        <button class="calculator-key" data-value="5">5</button>
-        <button class="calculator-key" data-value="6">6</button>
-        <button class="calculator-key calculator-key--operator" data-value="+">
-          +
-        </button>
+          <!-- Row 2 -->
+          <button class="calculator-key" data-value="4">4</button>
+          <button class="calculator-key" data-value="5">5</button>
+          <button class="calculator-key" data-value="6">6</button>
+          <button
+            class="calculator-key calculator-key--operator"
+            data-value="+">
+            +
+          </button>
 
-        <!-- Row 3 -->
-        <button class="calculator-key" data-value="1">1</button>
-        <button class="calculator-key" data-value="2">2</button>
-        <button class="calculator-key" data-value="3">3</button>
+          <!-- Row 3 -->
+          <button class="calculator-key" data-value="1">1</button>
+          <button class="calculator-key" data-value="2">2</button>
+          <button class="calculator-key" data-value="3">3</button>
 
-        <button class="calculator-key calculator-key--operator" data-value=".">
-          .
-        </button>
-        <button class="calculator-key calculator-key--zero" data-value="0">
-          0
-        </button>
-        <button
-          class="calculator-key calculator-key--operator"
-          data-action="calculate">
-          =
-        </button>
+          <button
+            class="calculator-key calculator-key--operator"
+            data-value=".">
+            .
+          </button>
+          <button class="calculator-key calculator-key--zero" data-value="0">
+            0
+          </button>
+          <button
+            class="calculator-key calculator-key--operator"
+            data-action="calculate">
+            =
+          </button>
+        </div>
       </div>
     </div>
 
